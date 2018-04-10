@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body{
+ background-image :url("bg.png");
+ font-size: 87.5%;
+ font-family : Arail, 'Lucid Sans Unicode';
+ Line -height :1.5;
+ margin:15px 15px;
+}
+
+ul.hornav{
+    list-style-type: none;
+	width: 65%;
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+	overflow :visible;
+}
+ul.side{
+list-style-type: none;
+margin-left: 65%;
+margin: 0;
+    padding: 0;
+overflow: hidden;
+}
+
+ button {
+float: right;
+background-color : BLUE;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+	border-radius:7px;
+}
+
+ul.hornav li a{
+float: left;
+background-color : BLACK;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+	border-radius : 5px;
+}
+
+
+ul.hornav li a:hover {background-color:BLUE;}
+
+ul.hornav li a.active {background-color: BLUE;}
+
+ul.hornav li.right {float: right;}
+
+ul.vernav {
+float: left;
+    list-style-type: none;
+	margin-top :2%;
+padding :0;
+    width: 25%;
+	height : 80%;
+    background-color: BLACK;
+	boder-radius :5px;
+}
+
+ul.vernav li a {
+    display: block;
+    color: #FFF;
+    padding: 8px 16px;
+    text-decoration: none;
+	border-radius:7px;
+}
+
+ul.vernav li a.active {
+    background-color:BLUE;
+    color: white;
+}
+
+ul.vernav li a:hover:not(.active) {
+    background-color: BLUE;
+    color: white;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even){background-color: #A9A9A9}
+tr:nth-child(odd){background-color: #4CA4CA}
+
+th {
+    background-color: #000000;
+    color: BLUE;
+}
+
+.footer{
+width : 100%;
+float:left;
+background-color: #333;
+margin : 1% 0;
+border-radius: 7px;
+}
+
+.footer p {
+text-color : white;
+text-align : center;
+width : 92%
+margin : 2% auto;
+}
+
+</style>
+
+</head>
+<body>
+
+<ul class = "hornav">
+    <li> <a href = "#Home" > Home </a></li>
+    <li> <a  href = "Student.html" > Students Corner</a></li>
+    <li> <a class = "active" href = "#Teachers" > Teachers Corner</a></li>
+    <li> <a href = "#Admission" > Admission </a></li>
+    <li> <a href = "batchf.html" > Batches </a></li>
+    <li> <a href = "#Toppers" > Toppers </a></li>
+	<li> <a href = "#AboutUs" > About Us </a></li>
+</ul>
+<ul class = "side">
+    <li> <button onclick="document.getElementById('id02').style.display='block'"> Sign Up </button> </li>
+    <li> <button onclick="document.getElementById('id01').style.display='block'"> Login </button> </li>
+</ul>
+
+<h1 style="background-color:Gray;">OUR FACULTY</h1>
+
+<table>
+<tr>
+    <td></td>
+    
+</tr>
+<tr>
+    <th>SEMESTER 3</th>
+    
+  </tr>
+  <tr>
+    <td></td>
+    
+</tr>
+  <tr>
+    <th>CourseName</th>
+    <th>Faculty_Name</th>
+	 <th>Faculty_Qualification</th>
+  </tr>
+  <tr>
+    <td>Data Structures</td>
+    <td>Ms. Pahane</td>
+    <td>M.E.</td>
+  </tr>
+  <tr>
+    <td>Computer Networks</td>
+    <td>Ms. Patil</td>
+    <td>B.E.</td>
+  </tr>
+  <tr>
+    <td>Applied Maths</td>
+    <td>Ms.Talele</td>
+    <td>M.E.</td>
+  </tr>
+  <tr>
+    <td>Java</td>
+    <td>Mr. Saraf</td>
+    <td>M.E.</td>
+</tr>
+ </tr>
+  <tr>
+    <td></td>
+    
+</tr>
+<tr>
+    <th>SEMESTER 4</th>
+    
+  </tr>
+  <tr>
+    <td></td>
+    
+</tr>
+<tr>
+    <th>CourseName</th>
+    <th>Faculty_Name</th>
+	 <th>Faculty_Qualification</th>
+  </tr>
+  <tr>
+    <td>Computer Organisation and Architecture</td>
+    <td>Ms. Soudagar</td>
+    <td>MBA</td>
+  </tr>
+<tr>
+    <td>Automata Theory</td>
+    <td>Ms. Ankita</td>
+    <td>M.E.</td>
+  </tr>
+  
+  <tr>
+    <td>Information Theory And Coding </td>
+    <td>Ms Yeram</td>
+    <td>M.E.</td>
+  </tr>
+  <tr>
+    <td>Database Management System</td>
+    <td>Mr Amaan</td>
+    <td>B.E.</td>
+  </tr>
+ 
+</table>
+
+<footer class = "footer">
+   <p> Copyright&copy 2018</p>
+</footer>
+
+</body>
+</html>

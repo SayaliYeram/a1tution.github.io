@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<style>
+body {
+    background-image: url("bg.png"), url("time.jpg");
+    background-position: left top, right bottom;
+    background-repeat:repeat, no-repeat;
+    padding: 15px;
+}
+#rcorners1 {
+    border-radius: 25px;
+    background: url(papa.jpg);
+    background-position: left top;
+    background-repeat: repeat;
+    padding: 15px; 
+    width: 650px;
+    height: 10px;    
+}
+ul1 {
+    background: #334;
+    padding:0px;
+	
+}
+ul1 li {
+    background: #D3D3D3;
+    margin: 0px;
+}
+ul.hornav{
+    list-style-type: none;
+	width: 65%;
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+	overflow :visible;
+}
+ul.side{
+list-style-type: none;
+margin-left: 65%;
+margin: 0;
+    padding: 0;
+overflow: hidden;
+}
+
+ button {
+float: right;
+background-color : BLUE;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px 12px;
+    text-decoration: none;
+	border-radius:5px;
+}
+
+ul.hornav li a{
+float: left;
+background-color : BLACK;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px 12px;
+    text-decoration: none;
+	border-radius : 5px;
+}
+
+
+ul.hornav li a:hover {background-color:BLUE;}
+
+ul.hornav li a.active {background-color: BLUE;}
+
+ul.hornav li.right {float: right;}
+
+.active {
+    background-color: #4CAF50;
+}
+
+.footer{
+width : 100%;
+float:left;
+background-color: #333;
+margin : 2% 0;
+}
+
+.footer p {
+text-color : white;
+text-align : center;
+width : 92%
+margin : 2% auto;
+}
+
+</style>
+</head>
+<body>
+<ul class = "hornav">
+
+  <li><a  href="index.html">HOME</a></li>
+  <li><a class="active" href="Student.html">STUDENT CORNER</a></li>
+  <li><a href="tech.html">FACULTY CORNER</a></li>
+  <li><a href="#admission">ADMISSION</a></li>
+  <li><a href="batchf.html">BATCHES</a></li>
+  <li><a href="toppers.html">TOPPERS</a></li>
+  <li><a href="aboutus.html">ABOUT US</a></li>
+</ul>
+<ul class = "side">
+    <li> <button onclick="document.getElementById('id02').style.display='block'"> Sign Up </button> </li>
+    <li> <button onclick="document.getElementById('id01').style.display='block'"> Login </button> </li>
+</ul>
+
+
+<ul class = "vernav">
+    <li> <a  class = "active" href = "#syllabus"> Syllabsus </a></li>
+    <li> <a href = "#onlinelec"> Online Lectures</a></li>
+	<li> <a href = "study.html"> Study Materials</a></li>
+    <li> <a href = "reference.html"> Reference Books</a></li>
+    <li> <a href = "#onlinelec"> Online Lectures</a></li>
+
+</ul>
+
+<h1 style="background-color:Gray;">REFERENCE BOOKS</h1>
+<p id="rcorners1">Data Structures and Algorithms </p>
+
+<ul1>
+  <li>Data Structures and Algorithms Made Easy by Narasimha Karumanchi</li>
+  <li>R.S.Salaria</li>
+  
+</ul1>
+<p id="rcorners1">APPLIED MATHEMATICS 4</p>
+
+<ul1>
+  <li>S.S.Sastri</li>
+  <li>Kumbhojkar</li>
+  
+</ul1>
+<p id="rcorners1">COMPUTER NETWORKS</p>
+
+<ul1>
+  <li>William Stallings</li>
+  <li> Behrouz A Forouzan</li>
+  
+</ul1>
+<p id="rcorners1">JAVA </p>
+
+<ul1>
+  <li>Java - The Complete Reference 7th Edition  (English, Paperback, Herbert Schildt)</li>
+  <li>Core Java Volume I — Fundamentals (9th Edition)</li>
+  
+</ul1>
+<p id="rcorners1">COMPUTER ORGANIZATION AND ARCHITECTURE </p>
+
+<ul1>
+  <li>WILLIAM STALLINGS</li>
+  <li>D. A. Patterson and J. L. Hennessy. Computer Organization and Design</li>
+  
+</ul1>
+<p id="rcorners1">AUTOMATA THEORY</p>
+
+<ul1>
+  <li>Introduction to Automata Theory, Languages, and Computation, 3e Paperback – 2008</li>
+  <li>Elements of the Theory of Computation” by Harry R Lewis and Christos H Papadimitriou</li>
+  
+</ul1>
+<p id="rcorners1">INFORMATION THEORY AND CODING</p>
+
+<ul1>
+  <li>CRYPTOGRAPHY BY ATUL KAHATE</li>
+  <li>Cryptography and Network Security - Principles and Practice Paperback </li>
+  
+</ul1>
+<p id="rcorners1">DATABASE MANAGEMENT SYSTEM</p>
+
+<ul1>
+  <li>DATABASE MANAGEMENT SYSTEM BY KOARTH </li>
+  <li>FUNDAMENTALS OF DATABASE MANAGEMENT SYSTEM BY S. SUMATHI </li>
+  
+</ul1>
+
+
+
+
+<footer class = "footer">
+   <p> Copyright&copy 2018</p>
+</footer>
+</body>
+</html>

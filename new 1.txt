@@ -1,0 +1,134 @@
+
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title> Student Corner </title>
+
+<style>
+ body{
+ background-image :url("bg.png");
+ font-size: 87.5%;
+ font-family : Arail, 'Lucid Sans Unicode';
+ Line -height :1.5;
+ margin : 15px 15px;
+ }
+
+ul.hornav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+ul.hornav li {float: right;}
+
+ul.hornav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+ul.hornav li a:hover {background-color:BLUE;}
+
+ul.hornav li a.active {background-color: BLUE;}
+
+ul.hornav li.right {float: right;}
+
+p.stuff {
+text-align :center;
+font-size: 30px}
+
+ul.vernav {
+float: left;
+    list-style-type: none;
+    margin : 0;
+padding : 0;
+    width: 25%;
+	height : 100%;
+    background-color: BLACK;
+}
+
+ul.vernav li a {
+    display: block;
+    color: #FFF;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+ul.vernav li a.active {
+    background-color:BLUE;
+    color: white;
+}
+
+ul.vernav li a:hover:not(.active) {
+    background-color: BLUE;
+    color: white;
+}
+
+.content{
+margin-left:25%;padding:1px 16px;
+}
+
+.footer{
+width : 100%;
+float:left;
+background-color: #333;
+margin : 2% 0;
+}
+
+.footer p {
+text-color : white;
+text-align : center;
+width : 92%
+margin : 2% auto;
+}
+
+
+@media screen and (max-width: 600px){
+    ul.hornav li.right, 
+    ul.hornav li {float: none;}
+}
+ 
+
+
+ 
+ </style>
+</head>
+
+<body>
+
+<ul class = "hornav">
+    <li> <a href = "#SignUp" > Sign Up </a></li>
+    <li> <a href = "#Login" > Login </a></li>
+</ul>
+
+<p class = "stuff"> Students Corner</p>
+
+<ul class = "vernav">
+    <li> <a  class = "active" href = "#syllabus"> Syllabsus </a></li>
+    <li> <a href = "#onlinelec"> Online Lectures</a></li>
+	<li> <a href = "#studymaterial"> Study Materials</a></li>
+    <li> <a href = "#books"> Reference Books</a></li>
+    <li> <a href = "#onlinelec"> Online Lectures</a></li>
+
+</ul>
+
+<div class = "content">
+<p> <h2>Syllabus</h2> </p>
+   <ol>
+       <li>Sem 1</li>
+	   <li>Sem 2</li>
+   </ol>
+</div>
+
+<footer class = "footer">
+   <p> Copyright&copy 2018</p>
+</footer>
+
+</body>
+</html>
+
+4CA4CA

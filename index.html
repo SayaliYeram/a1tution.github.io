@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body{
+ background-image :url("bg.png");
+ font-size: 87.5%;
+ font-family : Arail, 'Lucid Sans Unicode';
+ Line -height :1.5;
+ margin : 15px 15px;
+ }
+
+img {
+    margin-left: auto;
+    margin-right: auto;
+    opacity: 0.7;
+    filter: alpha(opacity=50);
+    overflow:hidden;
+    width:100%;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    color: black;
+ }
+
+
+
+
+ul.hornav{
+    list-style-type: none;
+	width: 65%;
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+	overflow :visible;
+}
+ul.side{
+list-style-type: none;
+margin-left: 65%;
+margin: 0;
+    padding: 0;
+overflow: hidden;
+}
+
+ button {
+float: right;
+background-color : BLUE;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+	border-radius:7px;
+}
+
+ul.hornav li a{
+float: left;
+background-color : BLACK;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+	border-radius : 5px;
+}
+
+
+ul.hornav li a:hover {background-color:BLUE;}
+
+ul.hornav li a.active {background-color: BLUE;}
+
+ul.hornav li.right {float: right;}
+
+.active {
+    background-color: #4CAF50;
+}
+
+.footer{
+width : 100%;
+float:left;
+background-color: #333;
+margin : -10% 0;
+border-radius: 7px;
+overflow:hidden;
+}
+
+.footer p {
+text-color : white;
+text-align : center;
+width : 92%
+margin : 2% auto;
+}
+</style>
+</head>
+<body>
+
+<ul class = "hornav">
+
+  <li><a class="active" href="index.html">HOME</a></li>
+  <li><a href="Student.html">STUDENT CORNER</a></li>
+  <li><a href="tech.html">FACULTY CORNER</a></li>
+  <li><a href="#admission">ADMISSION</a></li>
+  <li><a href="batchf.html">BATCHES</a></li>
+  <li><a href="toppers.html">TOPPERS</a></li>
+  <li><a href="aboutus.html">ABOUT US</a></li>
+</ul>
+<ul class = "side">
+    <li> <button onclick="document.getElementById('id02').style.display='block'"> Sign Up </button> </li>
+    <li> <button onclick="document.getElementById('id01').style.display='block'"> Login </button> </li>
+</ul>
+
+
+ <h1 align="center">A-1 Academy </h1>
+<h4><marquee>TOP RANKING STUDENTS SINCE 1990</marquee></h4>
+
+<img src="http://blog.hdwallsource.com/wp-content/uploads/2016/02/open-book-wallpaper-45039-46209-hd-wallpapers.jpg"  width="1300" height="500">
+
+<div class="container">
+ <img src="img_fjords_wide.jpg"  style="width:100%;">
+  
+</div>
+
+<footer class = "footer">
+   <p> Copyright&copy 2018</p>
+</footer>
+
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
